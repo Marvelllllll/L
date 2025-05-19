@@ -1,0 +1,17 @@
+Justify Content: (Moves text to the position (If doesnt work try using width 100%))
+gap (Self explanitory (Creates a gap between text))
+list-style (Removes symbols(Between string and numbers))
+display (Changes the style of the elements (In-line,Block))
+nav (Navigation Bar)
+ul (Parent of li (ul = unordered list))
+li (List just list)
+
+Font(If you want to change the size, or type of text, use font related elements)
+Font related elements(font-size, font-weight, font-style, font-family)
+
+Text (If you want to change the position, decoration, or the uppercase lowercase letters, use text related elements)
+Text related elements (text-align, text-decoration, text-transform)
+
+
+When first starting again (Use git clone (the github code link))
+then you can open the folder directly from VSC
