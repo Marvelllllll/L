@@ -1,3 +1,18 @@
+Basic Stuff:
+Padding: Jarak
+Margin: Jarak
+
+
+Basic Parts of a Website:
+Header
+Main Content
+Aside
+Footer
+
+
+
+
+
 Justify Content: (Moves text to the position (If doesnt work try using width 100%))
 gap (Self explanitory (Creates a gap between text))
 list-style (Removes symbols(Between string and numbers))
@@ -19,3 +34,13 @@ then you can open the folder directly from VSC
 When finishing up (git add .)
 then (git commit -m ""What you learned")
 finally (git push -u origin main)
+
+Part 2:
+Background Image = Literally just gives an imaged background to the website
+Background Size = Theres three types: Auto, Containing, Cover
+Gap = The gap between each child element
+Align Items = Aligns the Thing to the selected position
+Display: (Specifically focusing on newer ones that have been taught)
+Inline, Block, Inline-Block
+Border Radius: Rounds the Border to make it into more, rounded??
+Box Shaodw: ITS JUST BOX SHADOW NOTHING ELSE (Three values, the first is always the right and left value, Positive numbers = Right and Negative numbers = Left. The second values are always the top and bottom values positive is the bottom and the negatve is always the top, The last value is the blur value, The higher the number the more blurred the shadow is)
