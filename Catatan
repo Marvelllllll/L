@@ -15,3 +15,7 @@ Text related elements (text-align, text-decoration, text-transform)
 
 When first starting again (Use git clone (the github code link))
 then you can open the folder directly from VSC
+
+When finishing up (git add .)
+then (git commit -m ""What you learned")
+finally (git push -u origin main)
