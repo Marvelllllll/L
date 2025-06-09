@@ -30,7 +30,7 @@
 
     .Header-Pic img{
         padding: 10px;
-        height: 750px;
+        height: 500px;
         width: auto;
     }
 
@@ -39,23 +39,54 @@
     font-size: xx-large;
 }
 
-    .Main-Header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        margin: 15px`w;
-        background-image: url("./b6f9dc639ccaddda23a6070bad2ac1b8.jpg");
-        background-size: auto;
-        border-radius: 20px;
-        background-position: center;
-        gap: 50px;
-    }
-.Header-Desc a{
-    display: inline-block;
-    color: white;
-    margin: 20px;
-    background-color: green;
+.Main-Header{
+     padding: 20px;
+     margin: 15px;
+     background-image: url("./b6f9dc639ccaddda23a6070bad2ac1b8.jpg");
+    background-size: auto;
     border-radius: 20px;
-    border: solid 10px green;
+    background-position: center;
+    gap: 50px;
+    }
+
+.Header-Desc a{
+display: inline-block;
+color: white;
+margin: 20px;
+background-color: green;
+border-radius: 20px;
+border: solid 10px green;
+}
+
+.Container{
+     max-width: 1080px;
+     margin: auto;   
+}
+
+.Class1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.Img-Container{
+    width: 500px;
+    height: 750px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 8px 20px;
+}
+
+.Img-Container img{
+    width: 100%;
+}
+
+.Img-Container p{
+    background-color: rgba(0, 0, 0, 0.321);
+    position: relative;
+    bottom: 30px;
 }

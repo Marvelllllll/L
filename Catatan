@@ -44,3 +44,17 @@ Display: (Specifically focusing on newer ones that have been taught)
 Inline, Block, Inline-Block
 Border Radius: Rounds the Border to make it into more, rounded??
 Box Shaodw: ITS JUST BOX SHADOW NOTHING ELSE (Three values, the first is always the right and left value, Positive numbers = Right and Negative numbers = Left. The second values are always the top and bottom values positive is the bottom and the negatve is always the top, The last value is the blur value, The higher the number the more blurred the shadow is)
+
+Part 3:
+Position:
+Relative: Absolute but it still follows the parent
+Absolute: property that lets you place an element exactly where you want it on the page, regardless of its normal position
+Fixed: Fixes it to a certain location
+Static: Default Value
+Sticky: Where it will stop moving
+
+Overflow:
+Hidden: Hides the Excess
+Scroll: Makes a scroll bar to scroll the excess
+Visible: Useless
+
