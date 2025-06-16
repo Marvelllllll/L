@@ -42,7 +42,7 @@
 .Main-Header{
      padding: 20px;
      margin: 15px;
-     background-image: url("./b6f9dc639ccaddda23a6070bad2ac1b8.jpg");
+     background-image: url("./Assets/Images/");
     background-size: auto;
     border-radius: 20px;
     background-position: center;
@@ -75,18 +75,47 @@ border: solid 10px green;
     height: 750px;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 50px;
     border-radius: 50px;
     box-shadow: 4px 8px 20px;
 }
 
+.Img-Container:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+
 .Img-Container img{
     width: 100%;
+    transition: all 400ms ease-in-out;
 }
 
 .Img-Container p{
     background-color: rgba(0, 0, 0, 0.321);
     position: relative;
-    bottom: 30px;
+    bottom: 253px;
+    z-index: 200;
+    font-size: 35px;
+    color: azure;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 110px;
+    backdrop-filter: blur(5px);
+}
+
+#Four{
+    bottom: 375px;
+}
+
+.Card-Collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

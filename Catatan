@@ -58,3 +58,28 @@ Hidden: Hides the Excess
 Scroll: Makes a scroll bar to scroll the excess
 Visible: Useless
 
+Flex-Direction:
+Column
+Row
+Column-Reverse
+Row-Reverse
+
+Hover:
+When the cursor hovers over an object.
+Transform:
+Can change the size and position of the element without intercepting other elements.
+Values of Transform:
+Scale: Become big or smol (Pure number)
+Translate: X & Y (Px)
+Rotate: Rotates the thing (Deg)
+Transition: 3 values: Property, Duration, Animation
+
+Part 4:
+Table
+tr: Table Row
+th: Table Header
+td: Table Data (Can be images if wanted to)
+
+Border-Collapse: Collapse, Seperate
+
+
