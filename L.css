@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *   {
     padding: 0;
     margin: 0;
@@ -42,7 +43,7 @@
 .Main-Header{
      padding: 20px;
      margin: 15px;
-     background-image: url("./Assets/Images/");
+     background-image: url("./Assets/Images/Main-Header-Bg.jpg");
     background-size: auto;
     border-radius: 20px;
     background-position: center;
@@ -118,4 +119,43 @@ border: solid 10px green;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.Table{
+    margin: 40px;
+}
+
+.Table, th, tr, td{
+    border: solid 3px #000;
+    border-collapse: collapse;
+    padding: 25px;
+    font-size: xx-large;
+    font-family: "Press Start 2P";
+}
+
+.Table img{
+    width: 350px;
+}
+
+.Table td{
+    text-align: center;
+    background-color: #8F87F1;
+}
+
+.Table th{
+    background-color: #8F87F1;
+}
+
+.Div-Video{
+    background-color: #fff;
+    box-shadow: 1px 1px 10px ;
+    width: 950px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Div-Video video{
+    width: 100%;
 }
