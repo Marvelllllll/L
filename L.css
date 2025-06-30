@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
 *   {
     padding: 0;
     margin: 0;
@@ -17,7 +18,7 @@
     .menu-nav a {
         display: inline-block;
         text-decoration: none;
-        color: black;
+        color: #fff;
         padding: 30px;
         font-size: 30px;
     }
@@ -27,6 +28,7 @@
         width: 100%;
         gap: 20px;
         justify-content: center;
+        background-color: #000;
     }
 
     .Header-Pic img{
@@ -158,4 +160,31 @@ border: solid 10px green;
 
 .Div-Video video{
     width: 100%;
+}
+
+.main-footer{
+    background-color: #000;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    font-family: "Libertinus Math";
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-text{
+    font-size: large;
+}
+
+.container-styling-footer a{
+    color: #fff;
+    font-size: large;
+    transition: all, 500ms, ease-in-out; 
+}
+
+.container-styling-footer ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
 }

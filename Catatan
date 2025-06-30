@@ -1,6 +1,6 @@
 Basic Stuff:
-Padding: Jarak
-Margin: Jarak
+Padding: distance between elements and the border
+Margin: Distance between elements
 
 
 Basic Parts of a Website:
@@ -81,5 +81,11 @@ th: Table Header
 td: Table Data (Can be images if wanted to)
 
 Border-Collapse: Collapse, Seperate
+
+Video: 
+Autoplay: Automatically plays the video but sometimes its a bit unreliable
+Controls: Manually Play the video, most reliable
+
+Part 5:
 
 
