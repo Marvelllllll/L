@@ -87,5 +87,10 @@ Autoplay: Automatically plays the video but sometimes its a bit unreliable
 Controls: Manually Play the video, most reliable
 
 Part 5:
-
+Forms
+Label: Labels your Inputs (Ex: <Label for="Username">Username</Label>)
+Form: I actually dont know what this does. its just like a div for forms
+Input: This is basically a textbox (Ex: <input type="password" name= "Password" id="Password" placeholder= "Enter your password">
+If you are using input the three neccesary things are type, name, and id, it is recommended that the name and id are the same and the placeholder option is optional)
+Options: This makes a dropdown table for your options
 
