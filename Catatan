@@ -94,3 +94,13 @@ Input: This is basically a textbox (Ex: <input type="password" name= "Password" 
 If you are using input the three neccesary things are type, name, and id, it is recommended that the name and id are the same and the placeholder option is optional)
 Options: This makes a dropdown table for your options
 
+Part 6 (The start of a new chapter, JAVASCRIPT!!)
+
+array (List): The exact same as python, im not even joking its the exact same one to one.
+
+Variables: const (Cannot be changed)
+           Let(Can be changed)
+           var (NOT RECOMMENDED, Just know it exists, never use it just like the middle child)
+The basically JS version of String Formatting (String Literal)
+<!---- Example: let inputValue = `Hello ${myName}`;--->
+Requires `` and $ to use.

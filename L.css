@@ -66,7 +66,7 @@ border: solid 10px green;
      margin: auto;   
 }
 
-.Class1{
+.Header-Layout{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,6 +149,7 @@ border: solid 10px green;
 }
 
 .Div-Video{
+    display: flex;
     background-color: #fff;
     box-shadow: 1px 1px 10px;
     width: 950px;
@@ -189,11 +190,21 @@ border: solid 10px green;
     padding-left: 8px;
 }
 
+#close-btn{
+    display: none;
+    width: 40px;
+    margin-left: 20px;
+}
+
 .mobile-btn{
     display: none;
     width: 40px;
     margin-top: 30px;
     margin-left: 20px;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 600px){
@@ -212,6 +223,33 @@ border: solid 10px green;
 
     .mobile-btn{
         display: inline-block;
+    }
+
+    #close-btn{
+        display: inline-block;
+    }
+
+    .Header-Layout{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Header-Desc{
+        text-align: center;
+    }
+
+    .Div-Video{
+        width: auto;
+        length: auto;
+        box-shadow: 0px 0px 0px
+    }
+
+    .Table img{
+        width: 175px;
+    }
+
+    .Table, th, tr, td{
+        
     }
 
 }

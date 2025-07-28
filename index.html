@@ -13,13 +13,14 @@
             <li><a href="#"> Home </a></li>
             <li><a href="#"> Register Form </a></li>
             <li><a href="#"> Home </a></li>
+            <li><a href="#"><img src="./Assets/Images/Close Button.svg" id="close-btn" alt="Close"></a></li>
         </ul>
         <div class="mobile-btn" id="Button">
             <img src="./Assets/Images/Mobile Button.svg" alt="Button">
         </div>
     </nav>
     <header class="Main-Header">
-        <div class="Container Class1">
+        <div class="Header-Layout">
             <div class="Header-Desc">
             <h1>Title</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ea vitae, quidem numquam quas temporibus neque ab minima ipsum iusto provident sed ex commodi aliquid minus eligendi consectetur quisquam fuga!</p>
@@ -68,22 +69,14 @@
             </td>
             <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia perferendis, saepe blanditiis vitae consequatur dolore ea sint at, dolores non temporibus dignissimos quia explicabo nesciunt vero rem molestias deserunt nemo.</td>
         </tr>
-       </table> 
+       </table>     
     </div>
     <div class="Div-Video">
         <video controls>
             <source src="./Assets/Video/videoplayback.mp4" type="video/mp4">
         </video>
     </div>
-    <script>
-        const menu = document.getElementById("menu-nav")
-        const btn = document.getElementById("Button")
-        btn.addEventListener("click", () => {
-            menu.style = "left = 0"
-        })
-    </script>
-</body>
-<footer class="main-footer">
+    <footer class="main-footer">
    <div class="container-styling-footer">
      <ul class="menu-styling-footer">
         <li><p class="footer-text">&#169; Copyright </p></li>
@@ -92,4 +85,17 @@
      </ul>
    </div>
 </footer>
+    <script>
+        const menu = document.getElementById("menu-nav")
+        const btn = document.getElementById("Button")
+        const btn2 = document.getElementById("close-btn")
+        btn.addEventListener("click", () => {
+            menu.style = "left: 0"
+        })
+
+        btn2.addEventListener("click", () => {
+            menu.style = "left: 100"
+        })
+    </script>
+</body>
 </html>
